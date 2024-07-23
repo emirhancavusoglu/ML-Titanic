@@ -1,0 +1,70 @@
+Model: LogisticRegression
+Accuracy: 0.7933
+Classification Report:
+              precision    recall  f1-score     support
+0              0.803571  0.857143  0.829493  105.000000
+1              0.776119  0.702703  0.737589   74.000000
+accuracy       0.793296  0.793296  0.793296    0.793296
+macro avg      0.789845  0.779923  0.783541  179.000000
+weighted avg   0.792223  0.793296  0.791499  179.000000
+Confusion Matrix:
+    0   1
+0  90  15
+1  22  52
+
+Model: RandomForestClassifier
+Accuracy: 0.7821
+Classification Report:
+              precision    recall  f1-score     support
+0              0.779661  0.876190  0.825112  105.000000
+1              0.786885  0.648649  0.711111   74.000000
+accuracy       0.782123  0.782123  0.782123    0.782123
+macro avg      0.783273  0.762420  0.768112  179.000000
+weighted avg   0.782648  0.782123  0.777983  179.000000
+Confusion Matrix:
+    0   1
+0  92  13
+1  26  48
+
+Model: KNeighborsClassifier
+Accuracy: 0.7430
+Classification Report:
+              precision    recall  f1-score     support
+0              0.804124  0.742857  0.772277  105.000000
+1              0.670732  0.743243  0.705128   74.000000
+accuracy       0.743017  0.743017  0.743017    0.743017
+macro avg      0.737428  0.743050  0.738703  179.000000
+weighted avg   0.748978  0.743017  0.744517  179.000000
+Confusion Matrix:
+    0   1
+0  78  27
+1  19  55
+
+Model: SVC
+Accuracy: 0.7877
+Classification Report:
+              precision    recall  f1-score     support
+0              0.791304  0.866667  0.827273  105.000000
+1              0.781250  0.675676  0.724638   74.000000
+accuracy       0.787709  0.787709  0.787709    0.787709
+macro avg      0.786277  0.771171  0.775955  179.000000
+weighted avg   0.787148  0.787709  0.784843  179.000000
+Confusion Matrix:
+    0   1
+0  91  14
+1  24  50
+
+Model: DecisionTreeClassifier
+Accuracy: 0.7821
+Classification Report:
+              precision    recall  f1-score     support
+0              0.779661  0.876190  0.825112  105.000000
+1              0.786885  0.648649  0.711111   74.000000
+accuracy       0.782123  0.782123  0.782123    0.782123
+macro avg      0.783273  0.762420  0.768112  179.000000
+weighted avg   0.782648  0.782123  0.777983  179.000000
+Confusion Matrix:
+    0   1
+0  92  13
+1  26  48
+
